@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import CityCard from './component/CityCard';
+import CityCard from './component/CountryCard';
 import  StarsCanvas  from './component/canvas/Stars';
 
 function App() {

@@ -2,7 +2,7 @@ import React from "react";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-const CityCard = ({ label, value }) => (
+const CountryCard = ({ label, value }) => (
     <VerticalTimelineElement
       contentStyle={{
         background: "#1d1836",
@@ -24,4 +24,4 @@ const CityCard = ({ label, value }) => (
       </div>
     </VerticalTimelineElement>
   );
-  export default CityCard;
+  export default CountryCard;
